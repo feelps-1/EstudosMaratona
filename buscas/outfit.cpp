@@ -27,6 +27,9 @@ int main(){
             if(wardrobe.empty()){
                 cout << "empty" << '\n';
             }else{
+                if(wardrobe.back() == "snowcoat"){
+                found = false;
+                }
                 cout << wardrobe.back() << '\n';
                 wardrobe.pop_back();
             }
